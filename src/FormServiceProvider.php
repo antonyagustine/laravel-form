@@ -1,4 +1,4 @@
-<?php namespace processdrive\LaravelForm;
+<?php namespace processdrive\laravelform;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\AliasLoader;

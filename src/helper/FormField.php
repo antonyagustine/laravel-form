@@ -1,4 +1,4 @@
-<?php namespace processdrive\LaravelForm\helper;
+<?php namespace processdrive\laravelform\helper;
 
 use Form, Config;
 

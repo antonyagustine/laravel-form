@@ -1,11 +1,11 @@
 {
-    "name": "processdrive/LaravelForm",
+    "name": "processdrive/laravelform",
     "description": "demo laravel Form field",
     "license": "MIT",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "processdrive\\LaravelForm\\": "src/"
+            "processdrive\\laravelform\\": "src/"
         }
     },
     "require": {
@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "processdrive\\LaravelForm\\LaravelFormServiceProvider"
+                "processdrive\\laravelform\\FormServiceProvider"
             ],
             "aliases": {
             }
