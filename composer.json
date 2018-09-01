@@ -2,8 +2,14 @@
     "name": "processdrive/form",
     "description": "demo laravel form field",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "processdrive\\form\\": "src/"
+        }
+    },
     "require": {
-        "laravelcollective/html": "5.4.0"
+        "laravelcollective/html": "^5.4.0"
     },
     "extra": {
         "laravel": {
@@ -12,12 +18,6 @@
             ],
             "aliases": {
             }
-        }
-    },
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "processdrive\\form\\": "src/"
         }
     },
     "authors": [
