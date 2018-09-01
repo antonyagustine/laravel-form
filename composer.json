@@ -1,7 +1,7 @@
 {
     "name": "processdrive/form",
     "description": "demo laravel form field",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "require": {
         "laravelcollective/html": "5.4.0"
