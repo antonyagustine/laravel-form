@@ -1,0 +1,30 @@
+{
+    "name": "processdrive/form",
+    "description": "demo laravel form field",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "laravelcollective/html": "5.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "processdrive\\form\\FormServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "processdrive\\form\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agustine",
+            "email": "agustine@processdrive.com"
+        }
+    ]
+}
