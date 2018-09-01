@@ -2,6 +2,7 @@
     "name": "processdrive/laravelform",
     "description": "demo laravel Form field",
     "license": "MIT",
+    "type": "package",
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
