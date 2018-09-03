@@ -2,29 +2,26 @@
     "name": "processdrive/laravelform",
     "description": "demo laravel Form field",
     "license": "MIT",
-    "type": "package",
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-            "processdrive\\laravelform\\": "src/"
-        }
-    },
-    "require": {
-        "laravelcollective/html": "^5.4.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "processdrive\\laravelform\\FormServiceProvider"
-            ],
-            "aliases": {
-            }
-        }
-    },
     "authors": [
         {
             "name": "Agustine",
             "email": "agustine@processdrive.com"
         }
-    ]
+    ],
+    "require": {
+        "laravelcollective/html": "^5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "processdrive\\laravelform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "processdrive\\laravelform\\FormServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
 }
