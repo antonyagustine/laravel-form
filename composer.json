@@ -11,6 +11,7 @@
     "require": {
         "laravelcollective/html": "^5.4.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "processdrive\\laravelform\\": "src/"
@@ -22,6 +23,5 @@
                 "processdrive\\laravelform\\FormServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
