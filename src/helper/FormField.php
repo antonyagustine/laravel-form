@@ -100,6 +100,8 @@ class FormField {
         $instance = static::$instance;
         if ( ! $instance) $instance = static::$instance = new static;
 
+        dd($instance);
+
         return $instance->make($name, $args);
     }
 
